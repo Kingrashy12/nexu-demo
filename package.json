@@ -9,7 +9,8 @@
     "start": "nexujs start",
     "dev": "nexujs dev:ts",
     "serve": "tsc && node dist/server.js",
-    "update": "nexujs-cli update-deps"
+    "update": "nexujs-cli update-deps",
+    "pkg": "npm i ../nexu/packages/nexujs/nexujs-0.1.11.tgz"
   },
   "keywords": [],
   "author": "",
