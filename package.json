@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nexujs": "^0.1.11"
+    "nexujs": "^0.1.12"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
