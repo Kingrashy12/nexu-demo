@@ -1,0 +1,27 @@
+{
+  "name": "nexu-server",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with NexuJs-CLI.",
+  "main": "server.ts",
+  "private": "true",
+  "scripts": {
+    "build": "tsc",
+    "start": "nexujs start",
+    "dev": "nexujs dev:ts",
+    "serve": "tsc && node dist/server.js",
+    "update": "nexujs-cli update-deps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nexujs": "^0.1.11"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
