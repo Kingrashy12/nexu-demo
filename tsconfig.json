@@ -8,11 +8,8 @@
     "strict": true,
     "noUnusedLocals": true,
     "noImplicitAny": true,
-    "outDir": "./dist",
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "outDir": "./dist"
   },
-    "include": ["./**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules", "./dist"]
 }

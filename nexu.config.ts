@@ -9,4 +9,8 @@ export default defineConfig({
   corsConfig: {
     origin: "http://localhost:5173",
   },
+  dev: {
+    // Only use this one development, don't add the NODE_ENV=development to your production env.
+    disableEncryption: true,
+  },
 });
